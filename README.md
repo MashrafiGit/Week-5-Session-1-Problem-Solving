@@ -7,9 +7,9 @@
 2. How to think?
 - Think in two parts:
 
-Base case: The simplest case that stops the recursion.
+    1. Base case: The simplest case that stops the recursion.
 
-Recursive case: Break the problem into smaller versions and call the same function.
+    2. Recursive case: Break the problem into smaller versions and call the same function.
 
 3. How it works?
 - Each recursive call is stored in memory (call stack). It goes deeper until the base case is reached, then returns step by step, combining the results.
